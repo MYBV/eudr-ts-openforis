@@ -1,0 +1,52 @@
+# Dependencias
+node_modules/
+credentials.json
+yarn.lock
+pnpm-lock.yaml
+
+# TypeScript build output
+dist/
+*.tsbuildinfo
+
+# Credenciales (¡NUNCA COMMITEAR!)
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos temporales
+temp/
+.temp/
+tmp/
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+

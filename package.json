@@ -1,0 +1,32 @@
+{
+  "name": "eudr-script",
+  "version": "1.0.0",
+  "description": "Geospatial Analysis Tool for Zero-Deforestation Claims using Google Earth Engine",
+  "main": "dist/analysis.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "analyze": "node dist/analysis.js",
+    "start": "npm run build && npm run analyze"
+  },
+  "keywords": [
+    "google-earth-engine",
+    "deforestation",
+    "geospatial",
+    "eudr",
+    "satellite-imagery"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/earthengine": "^0.1.419",
+    "csv-parse": "^5.5.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
